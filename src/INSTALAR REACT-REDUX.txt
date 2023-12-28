@@ -1,0 +1,33 @@
+######### PAQUETES PARA PROYECTOS CON REACT-REDUX ########
+
+🟠En la terminal agregar los siguientes comandos (algunos son opcionales, otros obligatorios):
+
+~ npx create-react-app proyecto-redux-react
+
+~ npm i bootstrap
+
+~ npm i redux react-redux
+
+~ npm i jquery
+
+~ npm run start /*esto es para ejecutar el proyecto*/
+
+🟠Para instalar Redux DevTools Extension: Primero descargar la extensión en el navegador...
+
+~ npm install --save redux-devtools-extension
+
+Si no funca poner --force al final o tambien poner lo siguiente:
+
+~ npm install --save-dev redux-devtools-extension --legacy-peer-deps
+
+Esto instalará la librería `redux-devtools-extension` como una dependencia de desarrollo (`--save-dev`) en el `package.json`. El `--legacy-peer-deps` ayuda a resolver los problemas de resolución de dependencias cuando instalo paquetes.
+
+🟠Para poder trabajar con Middleware Redux, se necesita instalar Redux Thunk
+~ npm i redux-thunk 
+Si no anda agregar `--legacy-peer-deps`
+
+🟠Instalación de libreria que ayuda a hacer peticiones simples
+~ npm i axios
+Si no anda agregar `--legacy-peer-deps`
+
+🟠Para usar la API de Pokemon ir hacia el link: https://pokeapi.co/
